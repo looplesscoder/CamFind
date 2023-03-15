@@ -1,5 +1,10 @@
 # CamFind 📸
-This app can upload, store, and automatically tag images & videos using the Cloudinary API.
+## Link to the app
+(https://pratyksha-22-camfind-app-qx0n3o.streamlit.app/)
+
+## About
+This app can upload, store, and automatically tag images & videos using the Cloudinary API. It has been deployed using streamlit 
+
 
 The app is built with Streamlit where it displays an image gallery that can be filtered by tag, and also shows a Dashboard that analyzes all tags.
 
@@ -28,7 +33,7 @@ https://cloudinary.com/documentation/python_quickstart
 ```
 CLOUDINARY_URL=cloudinary://<api_key>:<api_secret>@<cloud_name>
 ```
-### Implement the Cloudinary Service
+## Implement the Cloudinary Service
 The file cloudinary_service.py contains helper functions to upload, tag, and search images.
 
 Prepare a folder with all the photos you want to upload, and then call the upload_folder()function inside the cloudinary_service.py to upload and tag all images.
@@ -40,6 +45,7 @@ Prepare a folder with all the photos you want to upload, and then call the uploa
 ![ss3](https://user-images.githubusercontent.com/92226372/224778343-1720f70b-85e2-4999-9224-661459635ef6.png)
 
 ## Run the App
+Run the following code in your VScode to run it locally
 ```
 streamlit run app.py
 ```
