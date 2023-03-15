@@ -23,7 +23,7 @@ conda activate envname
 ```
 2.Install the dependencies in your VScode 
 ```
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 ## Configuration
 Follow the quick start guide to create a .env file with the CLOUDINARY_URL
