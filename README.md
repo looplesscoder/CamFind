@@ -16,7 +16,7 @@ The app is built with Streamlit where it displays an image gallery that can be f
 5. [streamlit](https://share.streamlit.io/)
 
 ## Installation 
-1.create a virtual environment in your anaconda prompt
+1.create a virtual environment 
 ```
 conda create -n envname 
 conda activate envname 
